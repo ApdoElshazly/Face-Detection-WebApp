@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(120deg, #b993d6, #8ca6db);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn-gradient:hover {
+  opacity: 0.85;
+}
+
+.upload-card {
+  background: #ffffff;
+  border: none;
+  border-radius: 16px;
+  max-width: 600px;
+  transition: transform 0.2s ease;
+}
+.upload-card:hover {
+  transform: scale(1.01);
+}
+
+.preview img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(6px);
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
